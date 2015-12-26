@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1451139309201
+Build-Jdk: 1.7.0_79
+Built-By: prave_000
+Bundle-Description: Bundles for Integration Tests for Documentation Tool
+Bundle-ManifestVersion: 2
+Bundle-Name: Documentation Tool - Integration Tests Bundles
+Bundle-SymbolicName: com.aem.doctool.it.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aem.doctool.doctool.it.tests;uses:="org.apache.sling
+ .junit.annotations,org.junit,org.junit.runner";version="0.0.1"
+Import-Package: com.aem.doctool.doctool.core.models;version="[0.0,1)",or
+ g.apache.sling.junit.annotations;version="[1.0,2)",org.apache.sling.set
+ tings;version="[1.3,2)",org.junit,org.junit.runner
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.3.0.201405100607
