@@ -46,7 +46,8 @@ public class LoggingFilter implements Filter {
         logger.debug("  demo branch request for {}, with selector {}", slingRequest
                 .getRequestPathInfo().getResourcePath(), slingRequest
                 .getRequestPathInfo().getSelectorString());
-
+        
+        // first comment on this branch
         filterChain.doFilter(request, response);
     }
 
