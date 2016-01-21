@@ -47,6 +47,8 @@ public class LoggingFilter implements Filter {
                 .getRequestPathInfo().getResourcePath(), slingRequest
                 .getRequestPathInfo().getSelectorString());
         // urgent fix
+        
+        // Production issue CMS-xyz
         filterChain.doFilter(request, response);
     }
 
